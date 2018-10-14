@@ -1,0 +1,13 @@
+    1  id
+    2  whoami
+    3  exit
+    4  chown file root
+    5  chown  root file
+    6  cd test
+    7  chown  root file
+    8  exit
+    9  chmod 600 file
+   10  exit
+   11  chmod 640 file
+   12  exit
+   13  history > lab2_history.txt
