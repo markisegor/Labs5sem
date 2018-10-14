@@ -1,0 +1,5 @@
+----rw-rw-. 1 yegor yegor  0 окт 14 20:16 1
+drw-rwxrwx. 2 yegor yegor 37 окт 14 20:07 dir
+-rw-------. 1 yegor yegor  0 окт 14 20:24 f1
+-rw-rw-rw-. 1 yegor yegor  0 окт 14 20:33 f2
+-rw-r-----. 1 root  yegor  5 окт 14 20:16 file
