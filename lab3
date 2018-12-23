@@ -61,6 +61,23 @@ echo $ROOT_PROCS
 #!/bin/bash
 ps -e --sort rss | tail -5 | tac
 
+1.10
+#!/bin/bash
+du -d1 ~/ | sort -k1
+
+1.11
+#!/bin/bash
+echo Dirs
+ls -l | grep ^d
+echo Files
+ls -l | grep ^-
+echo Character Links
+ls -l | grep ^l
+echo Character Devices
+ls -l | grep ^c
+echo Block Devices
+ls -l | grep ^b
+
 2.1
 #!/bin/bash
 date >> /tmp/run.log
