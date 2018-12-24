@@ -112,8 +112,24 @@ int main() {
         sleep(55);
 }
 
-2/3(sh)
+2.3(sh)
 #!/bin/bash
 gcc -o processes task_2.3_processes.c
 ./processes & pstree | grep --color processes
 
+2.4
+#include <stdio.h>
+#include <unistd.h>
+int main(void) 
+{  
+    int i;
+    pid_t pid;
+ while(True) 
+    {
+        pid = fork();
+        if (pid < 0) {
+            printf("Maximum number of processes = %d\n", i);
+            return;
+        } else if (pid > 0) { i++; }
+    }
+}
